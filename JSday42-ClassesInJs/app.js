@@ -8,8 +8,6 @@ const student = {
   }
 };
 student.showInfo();
-
-
 const car = {
   brand: "Honda",
   model: "Civic",
@@ -23,8 +21,6 @@ const car = {
 };
 car.start();
 car.stop();
-
-
 const book = {
   title: "JavaScript Mastery",
   author: "John Doe",
@@ -34,8 +30,6 @@ const book = {
   }
 };
 book.describe();
-
-
 const product = {
   name: "Laptop",
   price: 85000,
@@ -46,8 +40,6 @@ const product = {
   }
 };
 product.sell(2);
-
-
 const movie = {
   name: "Inception",
   rating: 8.8,
@@ -56,10 +48,7 @@ const movie = {
   }
 };
 movie.play();
-
-
-//  CLASSES PRACTICE
-
+//  CLASSES 
 // Class  Person
 class Person {
   constructor(name, age) {
@@ -72,8 +61,6 @@ class Person {
 }
 const p1 = new Person("Ali", 25);
 p1.intro();
-
-
 // ClassAnimal
 class Animal {
   constructor(type, sound) {
@@ -88,8 +75,6 @@ const cat = new Animal("Cat", "Meow");
 const dog = new Animal("Dog", "Woof");
 cat.makeSound();
 dog.makeSound();
-
-
 // Class Car
 class Car {
   constructor(brand, model, year) {
@@ -110,8 +95,6 @@ class Car {
 const c1 = new Car("Toyota", "Corolla", 2022);
 c1.accelerate(60);
 c1.brake(20);
-
-
 // Class  BankAccount
 class BankAccount {
   constructor(owner, balance = 0) {
@@ -130,8 +113,6 @@ class BankAccount {
 const acc = new BankAccount("Eman", 1000);
 acc.deposit(500);
 acc.withdraw(200);
-
-
 // Class Rectangle
 class Rectangle {
   constructor(width, height) {
@@ -148,8 +129,6 @@ class Rectangle {
 const rect = new Rectangle(10, 5);
 console.log("Area:", rect.area());
 console.log("Perimeter:", rect.perimeter());
-
-
 // Class Student
 class Student {
   constructor(name, roll, grades = []) {
@@ -169,8 +148,6 @@ const s1 = new Student("Ali", 21);
 s1.addGrade(85);
 s1.addGrade(90);
 console.log(`${s1.name}'s Average:`, s1.average());
-
-
 // Class Employee
 class Employee {
   constructor(name, salary) {
@@ -183,8 +160,6 @@ class Employee {
 }
 const emp = new Employee("Sara", 60000);
 console.log(`Bonus for ${emp.name}: ${emp.yearlyBonus()}`);
-
-
 // Class  Temperature
 class Temperature {
   constructor(celsius) {
@@ -196,8 +171,6 @@ class Temperature {
 }
 const temp = new Temperature(30);
 console.log("Fahrenheit:", temp.toFahrenheit());
-
-
 // Class Product
 class Product {
   constructor(name, price) {
@@ -211,8 +184,6 @@ class Product {
 }
 const p = new Product("Phone", 100000);
 p.discount(15);
-
-
 // Class  Circle
 class Circle {
   constructor(radius) {
